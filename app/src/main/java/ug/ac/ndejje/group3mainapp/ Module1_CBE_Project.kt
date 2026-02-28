@@ -41,7 +41,7 @@ fun printStudentDetails(name:String?, studentNumber: String?){
 fun main(){
     // calling calculateMoMoFee()
     calculateMoMoFee(10000, 13000)
-    calculateMoMoFee(10000, 11000)
+    calculateMoMoFee(15000, 15000)
     println()
 
     // calling getGPA()
@@ -50,7 +50,7 @@ fun main(){
     println()
 
     // calling printStudentDetails()
-    printStudentDetails("", "ndu-24-360-034")
+    printStudentDetails(null, "ndu-24-360-034")
     printStudentDetails("Winnifred", null);
     printStudentDetails("Alex", "ndu-24-360-874")
 }
