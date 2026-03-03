@@ -15,7 +15,7 @@ fun calculateMoMoFee(amount: Int, balance: Int){
 
 //challenge 2
 fun getGPA(score: Int){
-    val GPA = when (score){
+    val gpa= when (score){
          in 80..100 -> 5.0
          in 75..79 -> 4.5
          in 70..74 -> 4.0
@@ -23,7 +23,7 @@ fun getGPA(score: Int){
          in 60..64 -> 3.0
         else -> 0.0
     }
-    println("Your score is $score and your GPA is $GPA")
+    println("Your score is $score and your GPA is $gpa")
 }
 
 //challenge 3
@@ -51,6 +51,6 @@ fun main(){
 
     // calling printStudentDetails()
     printStudentDetails(null, "ndu-24-360-034")
-    printStudentDetails("Winnifred", null);
+    printStudentDetails("Winnifred", null)
     printStudentDetails("Alex", "ndu-24-360-874")
 }
