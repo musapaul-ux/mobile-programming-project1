@@ -35,7 +35,10 @@ fun Student(){
         )
 
         Text(
-            text = "Programme: Bachelors of Computer Science"
+            text = "Bachelors of Computer Science",
+            style = MaterialTheme.typography.bodyMedium,
+            fontWeight = FontWeight.Medium,
+            color = MaterialTheme.colorScheme.secondary
         )
 
         Text(
